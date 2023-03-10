@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+
+:root {
+  /* --second-primary: #5c6895; */
+  --primary-color: #58a493;
+  --color-gray: #666;
+  --color-white: #ffffff;
+  --background-color: rgb(243, 243, 243);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: Comfortaa;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.container {
+  z-index: 1;
+  width: 80%;
+  margin: 0 auto;
+}
+
